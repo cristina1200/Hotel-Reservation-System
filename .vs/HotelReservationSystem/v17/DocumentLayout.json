@@ -1,0 +1,812 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\managers\\reservationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\managers\\reservationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\managers\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\managers\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\engines\\pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\engines\\pricingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\viewmodels\\roomavailabilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\viewmodels\\roomavailabilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\utilities\\securityutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\utilities\\securityutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\utilities\\notificationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\utilities\\notificationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\utilities\\loggingutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\utilities\\loggingutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resources\\paymentdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resources\\paymentdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resources\\roomdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resources\\roomdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resources\\reservationdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resources\\reservationdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resources\\customerdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resources\\customerdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resourceaccess\\roomresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resourceaccess\\roomresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resourceaccess\\reservationresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resourceaccess\\reservationresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resourceaccess\\paymentresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resourceaccess\\paymentresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\resourceaccess\\customerresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\resourceaccess\\customerresourceaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\migrations\\20260504183846_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\migrations\\20260504183846_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\managers\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\managers\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\managers\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\managers\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\engines\\notificationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\engines\\notificationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\engines\\paymentvalidationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\engines\\paymentvalidationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\engines\\availabilityengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\engines\\availabilityengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\migrations\\hoteldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\migrations\\hoteldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\reservation\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\reservation\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\payment\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\payment\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|c:\\users\\cristina_pc\\onedrive - technical university of cluj-napoca\\desktop\\hotelreservationsystem\\hotelreservationsystem\\views\\reservation\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07AF33D0-0177-4B8C-BC36-4AED46508C55}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\reservation\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:32:29.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PricingEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\PricingEngine.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Engines\\PricingEngine.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\PricingEngine.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Engines\\PricingEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:26:02.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomManager.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\RoomManager.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Managers\\RoomManager.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\RoomManager.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Managers\\RoomManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:24:40.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\ReservationManager.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Managers\\ReservationManager.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\ReservationManager.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Managers\\ReservationManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:24:31.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HotelReservationSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALYAAAAAAAAAAAAowNwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-04T17:41:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomAvailabilityViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\RoomAvailabilityViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ViewModels\\RoomAvailabilityViewModel.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\RoomAvailabilityViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ViewModels\\RoomAvailabilityViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T19:03:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ViewModels\\ReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\ReservationViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ViewModels\\ReservationViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:23:44.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ViewModels\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ViewModels\\PaymentViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ViewModels\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:23:54.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SecurityUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\SecurityUtility.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Utilities\\SecurityUtility.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\SecurityUtility.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Utilities\\SecurityUtility.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:31:58.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\NotificationUtility.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Utilities\\NotificationUtility.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\NotificationUtility.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Utilities\\NotificationUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:31:31.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoggingUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\LoggingUtility.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Utilities\\LoggingUtility.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Utilities\\LoggingUtility.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Utilities\\LoggingUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:31:21.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\PaymentDatabase.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Resources\\PaymentDatabase.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\PaymentDatabase.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Resources\\PaymentDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:30:18.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\RoomDatabase.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Resources\\RoomDatabase.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\RoomDatabase.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Resources\\RoomDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:29:19.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservationDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\ReservationDatabase.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Resources\\ReservationDatabase.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\ReservationDatabase.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Resources\\ReservationDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:29:39.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\CustomerDatabase.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Resources\\CustomerDatabase.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Resources\\CustomerDatabase.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Resources\\CustomerDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:29:11.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomResourceAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\RoomResourceAccess.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ResourceAccess\\RoomResourceAccess.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\RoomResourceAccess.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ResourceAccess\\RoomResourceAccess.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:27:37.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReservationResourceAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\ReservationResourceAccess.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ResourceAccess\\ReservationResourceAccess.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\ReservationResourceAccess.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ResourceAccess\\ReservationResourceAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:27:55.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentResourceAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\PaymentResourceAccess.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ResourceAccess\\PaymentResourceAccess.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\PaymentResourceAccess.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ResourceAccess\\PaymentResourceAccess.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:28:07.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerResourceAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\CustomerResourceAccess.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\ResourceAccess\\CustomerResourceAccess.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\ResourceAccess\\CustomerResourceAccess.cs",
+              "RelativeToolTip": "HotelReservationSystem\\ResourceAccess\\CustomerResourceAccess.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:27:23.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Room.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:22:04.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Reservation.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:22:16.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Payment.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:22:31.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:21:57.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20260504183846_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Migrations\\20260504183846_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Migrations\\20260504183846_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Migrations\\20260504183846_InitialCreate.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Migrations\\20260504183846_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T18:38:47.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\NotificationManager.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Managers\\NotificationManager.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\NotificationManager.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Managers\\NotificationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:25:00.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\PaymentManager.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Managers\\PaymentManager.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Managers\\PaymentManager.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Managers\\PaymentManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:24:49.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NotificationEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\NotificationEngine.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Engines\\NotificationEngine.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\NotificationEngine.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Engines\\NotificationEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:26:43.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PaymentValidationEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\PaymentValidationEngine.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Engines\\PaymentValidationEngine.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\PaymentValidationEngine.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Engines\\PaymentValidationEngine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:26:30.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AvailabilityEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\AvailabilityEngine.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Engines\\AvailabilityEngine.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Engines\\AvailabilityEngine.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Engines\\AvailabilityEngine.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:25:48.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Data\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Data\\HotelDbContext.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Data\\HotelDbContext.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Data\\HotelDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T18:12:05.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:32:38.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T17:37:07.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T17:24:30.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HotelDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Migrations\\HotelDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Migrations\\HotelDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Migrations\\HotelDbContextModelSnapshot.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Migrations\\HotelDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:27:50.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T17:30:23.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T15:32:21.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\Success.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Reservation\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\Success.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Reservation\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T15:34:49.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Room\\Create.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Room\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Room\\Create.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Room\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T11:26:12.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Room\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Room\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Room\\Index.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Room\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T15:35:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "HotelReservationSystem\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-05T11:21:08.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T15:34:01.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T18:12:45.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\appsettings.json",
+              "RelativeToolTip": "HotelReservationSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-04T17:31:31.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Payment\\Pay.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Payment\\Pay.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Payment\\Pay.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Payment\\Pay.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T15:35:53.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T17:39:41.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\All.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Reservation\\All.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\All.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Reservation\\All.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T17:38:23.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Cristina_PC\\OneDrive - Technical University of Cluj-Napoca\\Desktop\\HotelReservationSystem\\HotelReservationSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T17:40:09.022Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

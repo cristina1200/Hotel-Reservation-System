@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Hotel Reservation System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" asp-controller="Home" asp-action="Index">Hotel Reservation System</a>
+
+            <div class="nav-links">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Reservation" asp-action="Create">Create Reservation</a>
+                <a asp-controller="Room" asp-action="Index">Rooms</a>
+                <a asp-controller="Reservation" asp-action="All">Reservations</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>Assignment 3 - Volatility Driven Architecture - IDesign Method</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

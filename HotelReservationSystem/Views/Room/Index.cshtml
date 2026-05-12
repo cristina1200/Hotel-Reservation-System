@@ -1,0 +1,40 @@
+﻿@model List<HotelReservationSystem.Models.Room>
+
+@{
+    ViewData["Title"] = "Rooms";
+}
+
+<h1>Hotel Rooms</h1>
+
+<div class="actions">
+    <a class="btn" asp-controller="Room" asp-action="Create">Add Room</a>
+    <a class="btn secondary" asp-controller="Home" asp-action="Index">Back to Home</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Number</th>
+            <th>Room Type</th>
+            <th>Price / Night</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td>@room.RoomNumber</td>
+                <td>@room.RoomType</td>
+                <td>@room.PricePerNight RON</td>
+                <td>
+                    <form asp-controller="Room" asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@room.Id" />
+                        <button type="submit" class="btn danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

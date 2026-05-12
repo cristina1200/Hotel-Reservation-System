@@ -1,0 +1,112 @@
+﻿@model HotelReservationSystem.ViewModels.ReservationViewModel
+
+@{
+    ViewData["Title"] = "Create Reservation";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<h1>Create Reservation</h1>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="error-message">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<form asp-controller="Reservation" asp-action="Create" method="post" class="form-container">
+    <div class="form-group">
+        <label asp-for="CustomerName">Customer Name</label>
+        <input asp-for="CustomerName" />
+        <span asp-validation-for="CustomerName" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber">Phone Number</label>
+        <input asp-for="PhoneNumber" />
+        <span asp-validation-for="PhoneNumber" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RoomId">Room</label>
+        <select asp-for="RoomId" id="RoomId">
+            <option value="0">Select room</option>
+
+            @foreach (var room in Model.Rooms)
+            {
+                <option value="@room.Id">
+                    Room @room.RoomNumber - @room.RoomType - @room.PricePerNight RON/night
+                </option>
+            }
+        </select>
+
+        <span asp-validation-for="RoomId" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CheckInDate">Check-in Date</label>
+        <input asp-for="CheckInDate" id="CheckInDate" type="text" />
+        <span asp-validation-for="CheckInDate" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CheckOutDate">Check-out Date</label>
+        <input asp-for="CheckOutDate" id="CheckOutDate" type="text" />
+        <span asp-validation-for="CheckOutDate" class="validation-error"></span>
+    </div>
+
+    <p class="calendar-info">
+        Reserved dates are marked in red and cannot be selected.
+    </p>
+
+    <button type="submit" class="btn">Create Reservation</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        const reservedDatesByRoom = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.ReservedDatesByRoom));
+
+        let checkInPicker;
+        let checkOutPicker;
+
+        function initializeCalendars() {
+            const roomId = document.getElementById("RoomId").value;
+            const disabledDates = reservedDatesByRoom[roomId] || [];
+
+            if (checkInPicker) {
+                checkInPicker.destroy();
+            }
+
+            if (checkOutPicker) {
+                checkOutPicker.destroy();
+            }
+
+            checkInPicker = flatpickr("#CheckInDate", {
+                dateFormat: "Y-m-d",
+                minDate: "today",
+                disable: disabledDates
+            });
+
+            checkOutPicker = flatpickr("#CheckOutDate", {
+                dateFormat: "Y-m-d",
+                minDate: "today",
+                disable: disabledDates
+            });
+        }
+
+        document.getElementById("RoomId").addEventListener("change", initializeCalendars);
+
+        initializeCalendars();
+    </script>
+}

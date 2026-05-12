@@ -1,0 +1,45 @@
+﻿@model List<HotelReservationSystem.Models.Reservation>
+
+@{
+    ViewData["Title"] = "All Reservations";
+}
+
+<h1>All Reservations</h1>
+
+@if (Model.Count == 0)
+{
+    <p>No reservations have been created yet.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Room</th>
+                <th>Check-in</th>
+                <th>Check-out</th>
+                <th>Total Price</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var reservation in Model)
+            {
+                <tr>
+                    <td>@reservation.Id</td>
+                    <td>@reservation.Customer.FullName</td>
+                    <td>@reservation.Room.RoomNumber - @reservation.Room.RoomType</td>
+                    <td>@reservation.CheckInDate.ToShortDateString()</td>
+                    <td>@reservation.CheckOutDate.ToShortDateString()</td>
+                    <td>@reservation.TotalPrice RON</td>
+                    <td>@(reservation.IsConfirmed ? "Confirmed" : "Pending")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a class="btn" asp-controller="Reservation" asp-action="Create">Create New Reservation</a>

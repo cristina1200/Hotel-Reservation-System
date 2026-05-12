@@ -1,0 +1,54 @@
+﻿@model HotelReservationSystem.Models.Reservation
+
+@{
+    ViewData["Title"] = "Reservation Confirmed";
+}
+
+<h1>Reservation Confirmed</h1>
+
+<div class="success-notification">
+    <strong>Reservation Success!</strong>
+    <p>
+        Reservation confirmed successfully. A confirmation notification was generated for
+        <strong>@Model.Customer.Email</strong>.
+    </p>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="success-notification">
+        <strong>Payment Success!</strong>
+        <p>@TempData["SuccessMessage"]</p>
+    </div>
+}
+
+<div class="card">
+    <h2>Reservation Details</h2>
+
+    <p><strong>Reservation ID:</strong> @Model.Id</p>
+    <p><strong>Customer:</strong> @Model.Customer.FullName</p>
+    <p><strong>Email:</strong> @Model.Customer.Email</p>
+    <p><strong>Phone:</strong> @Model.Customer.PhoneNumber</p>
+
+    <hr />
+
+    <p><strong>Room Number:</strong> @Model.Room.RoomNumber</p>
+    <p><strong>Room Type:</strong> @Model.Room.RoomType</p>
+    <p><strong>Check-in:</strong> @Model.CheckInDate.ToShortDateString()</p>
+    <p><strong>Check-out:</strong> @Model.CheckOutDate.ToShortDateString()</p>
+    <p><strong>Total Price:</strong> @Model.TotalPrice RON</p>
+
+    <hr />
+
+    <p><strong>Status:</strong> Confirmed</p>
+
+    <div class="actions">
+        <a class="btn" asp-controller="Payment" asp-action="Pay" asp-route-reservationId="@Model.Id" asp-route-amount="@Model.TotalPrice">
+            Continue to Payment
+        </a>
+
+        <a class="btn secondary" asp-controller="Home" asp-action="Index">
+            Back to Home
+        </a>
+    </div>
+</div>

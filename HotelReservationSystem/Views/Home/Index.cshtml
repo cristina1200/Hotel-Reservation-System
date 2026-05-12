@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="home-container">
+    <h1>Hotel Reservation System</h1>
+
+    <p>
+        Welcome to the hotel reservation platform. This application allows clients to
+        check available rooms, create reservations, process payments and receive
+        reservation confirmations.
+    </p>
+
+    <div class="home-actions">
+        <a class="btn" asp-controller="Reservation" asp-action="Create">Create Reservation</a>
+        <a class="btn secondary" asp-controller="Room" asp-action="Index">View Rooms</a>
+        <a class="btn secondary" asp-controller="Reservation" asp-action="All">View Reservations</a>
+    </div>
+</div>

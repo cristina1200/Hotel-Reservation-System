@@ -1,0 +1,48 @@
+﻿@model HotelReservationSystem.ViewModels.PaymentViewModel
+
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h1>Payment</h1>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="error-message">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div class="card">
+    <p><strong>Reservation ID:</strong> @Model.ReservationId</p>
+    <p><strong>Amount:</strong> @Model.Amount RON</p>
+</div>
+
+<form asp-controller="Payment" asp-action="Pay" method="post" class="form-container">
+    <input type="hidden" asp-for="ReservationId" />
+    <input type="hidden" asp-for="Amount" />
+
+    <div class="form-group">
+        <label asp-for="CardHolderName">Card Holder Name</label>
+        <input asp-for="CardHolderName" />
+        <span asp-validation-for="CardHolderName" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CardNumber">Card Number</label>
+        <input asp-for="CardNumber" />
+        <span asp-validation-for="CardNumber" class="validation-error"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cvv">CVV</label>
+        <input asp-for="Cvv" />
+        <span asp-validation-for="Cvv" class="validation-error"></span>
+    </div>
+
+    <button type="submit" class="btn">Pay</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
